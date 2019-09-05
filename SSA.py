@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.utils.extmath import randomized_svd
 from time import time
 
-# Changed class from https://www.kaggle.com/jdarcy/introducing-ssa-for-time-series-decomposition
+# Modified class from https://www.kaggle.com/jdarcy/introducing-ssa-for-time-series-decomposition
 class SSA(object):
     __supported_types = (pd.Series, np.ndarray, list)
 
